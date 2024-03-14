@@ -26,8 +26,7 @@ jobs:
           name: ${{ steps.set_snapshot_tag.outputs.tag }}
           draft: false
           prerelease: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+       
 
 
 
